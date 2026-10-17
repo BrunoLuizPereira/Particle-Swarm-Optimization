@@ -21,18 +21,16 @@ Keep all three files in the same folder, or add their folder to the MATLAB or Oc
 
 ## Example
 
-The provided `Main.m` script minimizes the objective function defined in `ObjectiveFunction.m`:
+The provided Main.m script minimizes the objective function defined in ObjectiveFunction.m:
 
-\[
-f(x_1,x_2)=x_1^2+x_2^2+10
-\]
+f(x1, x2) = x1^2 + x2^2 + 10
 
 The search bounds are:
 
-- \(-5 \leq x_1 \leq 2\)
-- \(-5 \leq x_2 \leq 3\)
+-5 <= x1 <= 2
+-5 <= x2 <= 3
 
-The theoretical minimum is \(10\), attained at \(\mathbf{x}=[0,0]\).
+The theoretical minimum is 10, attained at (x1, x2) = (0, 0).
 
 The example uses 100 iterations, 50 particles, an inertia weight of `0.7`, and cognitive and social coefficients of `1.5`.
 
